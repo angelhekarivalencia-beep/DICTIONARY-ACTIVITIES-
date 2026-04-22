@@ -1,0 +1,23 @@
+# Activity 1
+student = { "name": "Angel Hekari ", "age": 19, "course": "IT" }
+print(student["name"])
+
+# Activity 2
+student = {"name": "Angel Hekari", "age": 19}
+student["grade"] = 95
+student["age"] = 19
+
+# Activity 3
+car = {"brand": "Toyota", "model": "Corolla", "year": 2020}
+for key, value in car.items():
+    print(f"{key} : {value}")
+
+# Activity 4
+phonebook = {
+    "Ana": "09123456789",
+    "Ben": "09234567890",
+    "Cara": "09345678901"
+}
+
+name = input("Enter a name: ")
+print(phonebook.get(name, "Name not found"))
